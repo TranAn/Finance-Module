@@ -1,0 +1,233 @@
+/** Add css rules here for your application. */
+/** Set ids using widget.getElement().setId("idOfElement") */
+/** Most GWT widgets already have a style name defined */
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #666785;
+  text-align: left;
+}
+
+.sendButton {
+  display: block;
+  font-size: 16pt;
+}
+
+.gwt-DialogBox {
+  width: 800px;
+}
+
+.GPBYFDEEK {
+  padding: 5px!important;
+}
+
+.dialogVPanel {
+	color: Black;
+	background-color: Blue;
+}
+
+.serverResponseLabelError {
+	color:red;
+}
+
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+.Hyperlink{
+	color: red;
+	font-weight: bold;
+	background-color: white;
+}
+.Hyperlink:hover{
+	color: red;
+	font-weight: bold;
+}
+
+.loginlabel {
+	color: Gray;
+	text-transform: none;
+}
+.logoutlabel {
+	color: Black;
+	font-weight: bold;
+}
+
+.tableStyle {
+	font-weight: bold;
+}
+
+.textbox {
+	color: Silver;
+}
+
+.approvedRowStyle {
+	color: forestgreen;
+}
+.approvedBoldRowStyle {
+	color: forestgreen;
+	font-weight: bold;
+}
+.deniedRowStyle {
+	color: firebrick;	
+}
+.deniedBoldRowStyle {
+	color: firebrick;	
+	font-weight: bold;
+}
+.moreinfoRowStyle {
+	color: Highlight;
+}
+.moreinfoBoldRowStyle {
+	color: Highlight;
+	font-weight: bold;
+}
+.normalBoldRowStyle{
+	font-weight: bold;
+}
+.normal1BoldRowStyle{
+	font-weight: bold;
+}
+
+.gwt-Button {
+	color: Gray;
+}
+
+.header {
+    background: #eee;
+	padding: 0.5em;
+	border: 1px solid #666;
+	background-color: lemonchiffon;
+}
+  
+ .approveheader {
+ 	padding: 0.5em;
+ 	border: 1px solid #666;
+ 	background-color: yellowgreen;
+ }
+ 
+ .denyheader {
+ 	padding: 0.5em;
+ 	border: 1px solid #666;
+ 	background-color: #ff6347;
+ }
+ 
+ .approvestatus {
+ 	color: #008000;
+ }
+ 
+ .denystatus {
+ 	color: Red;
+ }
+ 
+ .moreinfostatus {
+ 	color: blue;
+ }
+ 
+ .incomebtn{
+	color: White;
+	font-size: 11px;
+	background-color: Green;
+}
+
+.expensesbtn{
+	color: White;
+	font-size: 11px;
+	background-color: Red;
+}
+
+.searchinput{
+	color: Silver;
+	padding-left: 40px;
+	font-weight: bold;
+    outline: none;
+    box-shadow: 0px 0px 5px #61C5FA;
+    border-color: #5AB0DB;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.searchinput:focus{
+	color: Silver;
+	padding-left: 40px;
+	font-weight: bold;
+    outline: none;
+    box-shadow: 0px 0px 5px #61C5FA;
+    border-color: #5AB0DB;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.searchinput:hover {
+    border: 1.7px solid #000;
+    border-radius: 4px;
+}
+
+.gwt-Tree .gwt-TreeItem-selected {
+	background: white!important;
+}
+
+a:hover {
+	text-decoration: none!important;
+	background: #ebeff9;
+}
+
+tbody:hover{
+	cursor: pointer;
+}
+
+.GPBYFDEFD {
+	padding: 2px 9.5px!important;
+}
+
+.GPBYFDEOC {
+	padding: 5px 8px!important;
+}
+
+.GPBYFDEID {
+	border: 0px none #f3f7fb!important;
+}
+
+.GPBYFDEPC {
+	background: #f3f7fb !important;
+}
+
+.GPBYFDEAE {
+	border: 2px solid #fff !important;
+}
+
+.GPBYFDEHD {
+	border: none !important;
+}
+
+.GPBYFDEGD {
+	background: #eee !important;
+}
+
+.GPBYFDEBE {
+	background: #628cd5 !important;
+	color: white !important;
+	height: auto !important;
+	overflow: auto !important;
+}
+
+.GPBYFDECE {
+	border: 2px solid #628cd5 !important;
+}
+
+.GPBYFDEKD {
+	border: none !important;
+}
+
+.GPBYFDEJD {
+	background: #ffc !important;
+}
+
+/* .userCenterbtn{
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.notificationbtn{
+	box-shadow: 10px 10px 5px #888888;
+} */

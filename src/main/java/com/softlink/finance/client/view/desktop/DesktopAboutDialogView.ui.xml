@@ -1,0 +1,38 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+  xmlns:g='urn:import:com.google.gwt.user.client.ui'
+  xmlns:mail='urn:import:com.softlink.finance.client'>
+  <ui:style>
+	  .panel {
+	    padding: 10px;
+	  }
+	  .aboutText {
+	    text-align: left;
+	  }
+	  .logo {
+	    float: left;
+	    padding-right: 1em;
+	  }
+	  .buttons {
+	    text-align: right;
+	  }
+  </ui:style>
+
+  <g:HTMLPanel width='25em' styleName='{style.panel}'>
+    <div class='{style.logo}'>
+    	<g:Image url="resource/gwt-logo.png"/>
+	</div>
+    <div class='{style.aboutText}'>
+    Financial Module v3.1 <br/>
+    Build on GAE Framework and design by GWT <br/> <br/>
+    @Developer: Tran An <br/> <br/>
+    Update: <br/> <br/>
+    + Use MVP to make up module. <br/>
+   	+ Update UI. <br/>
+   	+ Update notification <br/>
+    </div>
+
+    <div class='{style.buttons}'>
+      <g:Button text='Close' ui:field='closeButton' />
+    </div>
+  </g:HTMLPanel>
+</ui:UiBinder>
